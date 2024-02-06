@@ -85,6 +85,18 @@ ol {
     left: 45px;
 }
 
+.card-header .only{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+}
+
+.card-header .heart-badge {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
 .price-badge {
     background-color: #FF0000;
     color: white;
@@ -92,18 +104,21 @@ ol {
     font-size: 13px;
 }
 
-    .tag-badge {
+.tag-badge {
     background-color: #008001;
     color: white;
     padding: 0 6px;
     font-size: 13px;
 }
 
-.card-header .only{
-    position: absolute;
-    bottom: 30px;
-    left: 0px;
+.heart-badge {
+    background-color: white;
+    font-size: 20px;
+    padding: 9px;
 }
+
+
+
 
 .page-footer {
     background-color: black;
