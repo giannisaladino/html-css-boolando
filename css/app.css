@@ -41,6 +41,16 @@ ol {
     padding-right: 7px;
 }
 
+.col-50 {
+    width: calc(100 / 2);
+    display: flex;
+    justify-content: space-between;
+}
+
+.row ul {
+    gap: 10px;
+}
+
 /* STYLE */
 
 .page-header {
@@ -50,6 +60,12 @@ ol {
 
 .page-header .row {
     justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-header {
+    height: 25px;
 }
 
 .red-price {
@@ -136,4 +152,16 @@ ol {
     color: white;
     margin-top: 35px;
     padding: 15px;
+}
+
+.page-footer .row {
+    justify-content: space-between;
+}
+
+
+
+/* utilities */
+
+.flex {
+    display: flex;
 }
